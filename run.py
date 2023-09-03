@@ -24,6 +24,7 @@ def contact():
 def careers():
     return render_template("careers.html")
 
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
